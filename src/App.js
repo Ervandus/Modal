@@ -9,7 +9,7 @@ function App() {
       <button onClick={() => setOpen(true)} className="open-modal-btn">
         ✨ Open window
       </button>
-      {open && (
+    
         <div className="overlay">
           <div className="modal">
             <svg
@@ -24,7 +24,6 @@ function App() {
             <img src="https://media2.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" />
           </div>
         </div>
-      )}
     </div>
   )
 }
